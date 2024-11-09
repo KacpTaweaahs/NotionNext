@@ -136,7 +136,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU || true, // 自定义右键菜单，覆盖系统菜单
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH ||
-    true, // 是否显示切换主题
+    false, // 是否显示切换主题
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_DARK_MODE:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_DARK_MODE || true, // 是否显示深色模式
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_SHARE_LINK:
@@ -259,13 +259,13 @@ const BLOG = {
   MOUSE_FOLLOW_EFFECT_COLOR: '#ef672a', // 鼠标点击特效颜色 #xxxxxx 或者 rgba(r,g,b,a)
 
   // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
   // 漂浮线段特效
   NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
   // 动态彩带特效
   FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || false, // 开关
   // 静态彩带特效
-  RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, // 开关
+  RIBBON: process.env.NEXT_PUBLIC_RIBBON || true, // 开关
   // 星空雨特效 黑夜模式才会生效
   STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
 
