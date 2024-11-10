@@ -24,7 +24,7 @@ export default function ArticleCopyright () {
         <li>
           <strong className='mr-2'>{locale.COMMON.AUTHOR}:</strong>
           <Link href={'/about'} className="hover:underline">
-            {siteConfig('NOTTON_PROPERTY_AUTHOR')}
+            {siteConfig('NOTION_PROPERTY_EXT')}
           </Link>
         </li>
         <li>
