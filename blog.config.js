@@ -511,7 +511,7 @@ const BLOG = {
     tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || 'tags',
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon',
     ext: process.env.NEXT_PUBLIC_NOTION_PROPERTY_EXT || 'ext',// 扩展字段，存放json-string，用于复杂业务
-    autor: process.env.NEXT_PUBLIC_NOTTON_PROPERTY_AUTOR || 'autor'
+    author: process.env.NEXT_PUBLIC_NOTTON_PROPERTY_AUTHOR || 'author'
   },
 
   // RSS订阅
